@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import {assets} from "../assets/assets.js";
+import {Menu, X} from "lucide-react";
 
 const Menubar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,8 +22,15 @@ const Menubar = () => {
             <button className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium px-4 py-2 rounded-full transtion-all">
                 Sign up   
             </button>
-
         </div>
+
+        {/* Mobile hamburger */}
+        <div className="flex md:hidden">
+            <button onClick={() => setMenuOpen(!menuOpen)}>
+                {menuOpen ? <X size={28} /> : <Menu size={28} />}
+            </button>
+        </div>
+
 
 
     </nav>
