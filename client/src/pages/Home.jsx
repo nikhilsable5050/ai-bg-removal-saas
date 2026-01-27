@@ -1,6 +1,7 @@
 import BgRemovalSteps from "../components/BgRemovalSteps.jsx";
 import BgSlider from "../components/BgSilder.jsx";
 import Header from "../components/Header.jsx";
+import Pricing from "../components/Pricing.jsx";
 
 const Home = () => {
     return (
@@ -15,7 +16,7 @@ const Home = () => {
             <BgSlider />
 
             {/*  Buy credits plan section */}
-            
+            <Pricing />
 
             {/*  User testimonials section */}
             
