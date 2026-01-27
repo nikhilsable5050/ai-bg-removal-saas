@@ -3,6 +3,7 @@ import BgSlider from "../components/BgSilder.jsx";
 import Header from "../components/Header.jsx";
 import Pricing from "../components/Pricing.jsx";
 import Testimonials from "../components/Testimonials.jsx";
+import TryNow from "../components/TryNow.jsx";
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <Testimonials />
 
             {/*  Try now section */}
+            <TryNow />
             
         </div>
     )
