@@ -10,8 +10,30 @@ const Header = () => {
                 </div>
             </div>
             
-
             {/*Right side: Text content*/}
+            <div className="order-1 md:order-2">
+                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    The fastest <span className="text-indigo-700">background eraser.</span>
+                </h1>
+                <p className="text-gray-600 mb-8 text-lg leading-relaxed">
+                    Transform your photos with our background remover app! Highlight your
+                    subject and create a transparent background, so you can place it in a
+                    variety of new designs and destinations. Try it now and immerse your
+                    subject in a completely different environment!
+                </p>
+
+                <div>
+                    <input type="file" accept="image/*" id="upload1" hidden />
+                    <label htmlFor="upload1"
+                        className="bg-black text-white font-medium px-8 py-4 rounded-full hover:opacity-90 transition-transform hover:scale-105 text-lg">
+                            Upload your image
+                        </label>
+                    
+                </div>
+
+            </div>
+
+
         </div>
     )
 }
