@@ -1,3 +1,4 @@
+import BgRemovalSteps from "../components/BgRemovalSteps.jsx";
 import Header from "../components/Header.jsx";
 
 const Home = () => {
@@ -7,8 +8,8 @@ const Home = () => {
             <Header />
             
             {/*  Background removal steps section */}
+            <BgRemovalSteps />
             
-
             {/*  Background removal slider section */}
             
 
