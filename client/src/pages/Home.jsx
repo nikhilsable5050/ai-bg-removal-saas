@@ -2,6 +2,7 @@ import BgRemovalSteps from "../components/BgRemovalSteps.jsx";
 import BgSlider from "../components/BgSilder.jsx";
 import Header from "../components/Header.jsx";
 import Pricing from "../components/Pricing.jsx";
+import Testimonials from "../components/Testimonials.jsx";
 
 const Home = () => {
     return (
@@ -19,7 +20,7 @@ const Home = () => {
             <Pricing />
 
             {/*  User testimonials section */}
-            
+            <Testimonials />
 
             {/*  Try now section */}
             
