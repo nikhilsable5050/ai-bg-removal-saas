@@ -80,3 +80,23 @@ export const testimonials = [
         handle: "@coding_newbie"
     }
 ];
+
+export const FOOTER_CONSTANTS = [
+    {
+        url: "https://github.com/nikhilsable5050",
+        logo: "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+        
+    },
+    {
+        url: "https://www.linkedin.com/in/nikhil-sable-51b781283/",
+        logo: "https://img.icons8.com/fluent/30/000000/linkedin-2.png"
+    },
+    {
+        url: "https://www.instagram.com/nikhilsable5050/",
+        logo: "https://img.icons8.com/fluent/30/000000/instagram-new.png"
+    },
+    {
+        url: "https://x.com/nikhilsable5050",
+        logo: "https://img.icons8.com/fluent/30/000000/twitter.png"
+    }
+]
