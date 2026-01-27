@@ -1,8 +1,10 @@
-import React from 'react'
+import Menubar from './components/Menubar.jsx';
 
 const App = () => {
   return (
-    <div className="text-3xl font-bold underline">Hello</div>
+    <div>
+      <Menubar />
+    </div>
   )
 }
 
