@@ -1,4 +1,5 @@
 import BgRemovalSteps from "../components/BgRemovalSteps.jsx";
+import BgSlider from "../components/BgSilder.jsx";
 import Header from "../components/Header.jsx";
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
             <BgRemovalSteps />
             
             {/*  Background removal slider section */}
-            
+            <BgSlider />
 
             {/*  Buy credits plan section */}
             
